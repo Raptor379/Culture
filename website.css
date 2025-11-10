@@ -1,0 +1,201 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 124px;
+    max-width: 100%;
+    padding: 0 60px 0 140px;
+    background-color: #fff;
+}
+    header article{
+        display: flex;
+        align-items: center;
+        gap: 48px;
+        width: 682px;
+        height: 89px;
+    }
+        header img:nth-child(1){
+            width: 90px;
+            height: 90px;
+        }
+        header img:nth-child(2){
+            width: 50px;
+            height: 50px;
+        }
+        header h2{
+            font-size: 37px;
+            font-weight: 700;
+            color: #D82616;
+        }
+#Hello{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 50px 280px 100px 140px;
+    gap: 113px;
+    background-image: url(images/Background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+    #decor{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    #Hello article{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+        #Hello article h1{
+            font-size: 103px;
+            font-weight: 700;
+            color: #D82616;
+            max-width: 1300px;
+            text-shadow: 7px 7px 7px rgba(0, 0, 0, 0.493);
+        }
+        #Hello article h2{
+            font-size: 40px;
+            font-weight: 700;
+            max-width: 600px;
+        }
+    #Hello nav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1364px;
+    }
+        #Hello nav div{
+            height: 291px;
+            width: 5px;
+            background-color: #D82616;
+        }
+#Our{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 85px 140px;
+    position: relative;
+}
+    #white-decor{
+        position: absolute;
+        left: -10px;
+    }
+    #Our div{
+        height: 4px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    #Our>div:nth-of-type(1){
+        margin-right: 140px;
+    }
+    #Our>div:nth-of-type(2){
+        margin-right: 414px;
+    }
+    #Our>div:nth-of-type(3){
+        margin-left: 140px;
+    }
+    #Our article{
+        display: flex;
+        gap: 90px;
+    }
+        #Our article h1{
+            max-width: 950px;
+            padding: 50px 30px;
+            background: #FFF;
+            border-radius: 50px;
+            font-size: 38px;
+            font-weight: 400;
+        }
+#Categories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Categories tbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 140px 80px 140px;
+    gap: 45px;
+}
+    #Categories tr{
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+    }
+        #Categories td{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 420px;
+            height: 137px;
+            padding: 20px 45px;
+            text-align: center;
+            font-size: 15px;
+            font-weight: 700;
+            background-color: #fff;
+            border-radius: 90px;
+            box-shadow: 3px 10px 15px rgba(0, 0, 0, 0.514);
+        }
+#GoTop {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 210px 100px 210px;
+}
+    #GoTop div{
+        background-color: #FFF;
+        height: 4px;
+        border-radius: 5px;
+    }
+    #GoTop a{
+        color: #fff;
+    }
+#We{
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    background: #fff;
+}
+    #We article{
+        display: flex;
+        flex-direction: column;
+        gap: 110px;
+        padding: 0 0 0 140px;
+    }
+        #We article h1{
+            font-size: 104px;
+            font-weight: 400;
+            color: #D82616;
+            text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.288);
+        }
+        #We article p{
+            font-size: 38px;
+            font-weight: 400;
+        }
+        #We article a{
+            font-size: 43px;
+            font-weight: 700;
+            color: black;
+        }
+            #We img{
+                height: 1072px;
+            }
+#End{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+}
+    #End article{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: -500px;
+        padding: 20px 0;
+    }
+    
