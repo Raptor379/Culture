@@ -141,6 +141,9 @@ header{
             border-radius: 90px;
             box-shadow: 3px 10px 15px rgba(0, 0, 0, 0.514);
         }
+        #Categories td *{
+            color: black;
+        }
 #GoTop {
     font-size: 40px;
     font-weight: 700;
