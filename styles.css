@@ -2,3 +2,44 @@ body{
     background-color: #D82616;
     font-family: 'Montserrat';
 }
+.main-categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 80px 150px;
+    gap: 30px;
+    background-image: url(/images/Categories-background/background.jpeg);
+}
+    .main-categories h1, .main-categories p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        padding: 12px 38px;
+    }
+    .main-categories p{
+        font-size: 28px;
+        font-weight: 400;
+        border-radius: 50px;
+    }
+    .main-categories h1{
+        gap: 15px;
+        font-size: 40px;
+        font-weight: 700;
+        border-radius: 100px;
+    }
+        .main-categories h1{
+            max-width: 676px;
+        }.main-categories aside h1{
+            max-width: 536px;
+        }
+        .main-categories h1 img{
+            max-height: 88px;
+        }
+    .main-categories aside{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-categories aside p:first-of-type{
+        margin: 30px 0 15px 0;
+    }
